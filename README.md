@@ -12,7 +12,7 @@ In this project we tried to classify dog and cat images according to their breed
  
  ![descarga](https://user-images.githubusercontent.com/70718425/104301888-70f18180-54c8-11eb-9613-4f748065a9bf.png)
 
-Our model achieved a testing accuracy of approximately 0.947.
+Our model achieved a testing accuracy of approximately 0.947, with the equal probability benchmark accuracy being 0.027.
 After checking that the model's performance was good, I retrained it in all the data, and I used it to participate in the Kaggle competition from which I took the dataset, achieving a multiclass loss of 0.27231, a better performance metric that the one achieved by the winner of the competition:
 
 ![score](https://user-images.githubusercontent.com/70718425/104302219-d6457280-54c8-11eb-8def-30a676c9f9d4.png)
@@ -56,7 +56,7 @@ Our algorithm ended up being able to, given the original images, label them like
 ![captcha_image5](https://user-images.githubusercontent.com/70718425/104241077-62ba4b80-545d-11eb-9c28-9d09d27b464e.png)
 
 
-Out of 36 testing images (i.e. 144 digits), our algorithm failed to recognize 4 digits, which was probably due to the digit extraction algorithm. It didn't missclassify any digit.
+Out of 36 testing images (i.e. 144 digits), our algorithm failed to recognize 4 digits, which was probably due to the digit extraction algorithm. It didn't missclassify any digit. Our model achieved a validation accuracy of 0.9677, with the equal probability benchmark accuracy being 0.022.
 
 ## Main technologies used:
 
