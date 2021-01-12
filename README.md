@@ -28,6 +28,7 @@ With the performance metric being multiclass loss:
 * Matplotlib
 * OpenCV
 * ImageNet
+* Pandas
 
 ## Main techniques used:
 
