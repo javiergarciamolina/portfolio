@@ -1,6 +1,6 @@
 # Javier Garcia Portfolio
 
-# [Oxford Pets](https://github.com/javiergarciamolina/oxford_pets)
+# [Oxford Pets](https://github.com/javiergarciamolina/oxford-pets)
 
 ## Objective:
 
@@ -43,7 +43,7 @@ With the performance metric being multiclass loss:
 
 The final model was an ensemble of ResNet50, ResNet50V2, Xception, Inception, NASNetLarge and InceptionResNetV2, all of them pretrained on the ImageNet dataset, with a new head of units and some regularization.
 
-# [Breaking Captchas](https://github.com/javiergarciamolina/breaking_captchas)
+# [Breaking Captchas](https://github.com/javiergarciamolina/breaking-captchas)
 
 ## Objective:
 In this project we downloaded a dataset of captcha images and went through the end-to-end process of splitting it into training, validation and test sets, extracting the digits from the images, labelling the ones from the training and validation sets so that we could feed them to a neural network, training a model that could successfully learn to identify the digits, and then using this model for labelling the whole captcha images of the test set. We had 45 classes and 1236 training images.
