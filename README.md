@@ -98,10 +98,5 @@ Out of 36 testing images (i.e. 144 digits), our algorithm failed to recognize 4 
 * Data Augmentation
 * Ensemble Learning
 
-## Model:
-
-The final model used was the regularized MiniVGG network that follows:
-
-![descarga (6)](https://user-images.githubusercontent.com/70718425/104305822-769d9600-54cd-11eb-8e48-4141b5d0b5f4.png)
 
 
