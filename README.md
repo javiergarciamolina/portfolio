@@ -1,5 +1,29 @@
 # Javier Garcia Portfolio
 
+# [Selfie Background Removal](https://github.com/javiergarciamolina/selfie-background-removal)
+
+## App:
+
+You can try it at:
+
+https://share.streamlit.io/javiergarciamolina/selfie-background-removal/main/background-removal-app.py
+
+Please take into account that the model was trained on mid-upper body selfies, with only one person in the picture, relatively near from the camera and with a high contrast with the background.
+
+## Objective:
+
+In this project I wanted to build an algorithm that could automatically remove the background from a selfie. For that, I used the U-net architecture and the AISegment.com Matting Human dataset, which consists of approximately 34 thousand pictures of mid-upper body selfies, with only one person in each picture, relatively near from the camera and with a high contrast with the background.
+
+## Result:
+
+**The model achieved an Intersection over Union of 99.4 on the test set.**
+
+Let's see some examples of test images plotted against their ground-truth (or at least the one provided in the dataset) and their predictions:
+
+![descarga (1)](https://user-images.githubusercontent.com/70718425/105999038-857b6f80-60ad-11eb-9bb1-f5fdf189d9bc.png)
+
+
+
 # [Oxford Pets](https://github.com/javiergarciamolina/oxford-pets)
 
 ## Objective:
