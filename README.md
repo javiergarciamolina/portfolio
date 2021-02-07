@@ -1,5 +1,7 @@
 # Javier Garcia Portfolio
 
+# [Selfie Background Removal](https://github.com/javiergarciamolina/selfie-background-removal)
+
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/70718425/107150769-d453bf80-695f-11eb-967c-6b089e5d8c84.gif)
 
 * Created an app that automatically removes the background from a selfie image.
