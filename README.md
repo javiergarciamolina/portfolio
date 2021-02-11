@@ -44,6 +44,11 @@ Original U-net architecture:
 
 I built and tested three U-net-like architectures, **achieving an IoU of 0.994 on the test set** with the last one.
 
+## [Correcting the orientation:](https://github.com/javiergarciamolina/selfie-background-removal/blob/main/correct_image_orientation.ipynb)
+
+After deploying the web app, I saw that sometimes the server would randomly rotate the image, which lead to bad results.
+
+**So I built a deep learning model that would tell whether an image is correctly oriented, and an algorithm that would rotate it to its correct orientation.**
 
 ## Visualizing some results:
 
